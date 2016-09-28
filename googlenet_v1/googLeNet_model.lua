@@ -92,7 +92,7 @@ function createModel()
    main0:add(SMP(3, 3, 2, 2):ceil())
    main0:add(inc(480, {{192}, { 96,208}, {16, 48}, {3, 64}})) -- 8,9 / 4(a)
 
-   --main0:get(1).gradInput = nil   
+   main0:get(1).gradInput = nil   
 
    local main1 = nn.Sequential()
    main1:add(inc(512, {{160}, {112,224}, {24, 64}, {3, 64}})) -- 10,11 / 4(b)
@@ -141,8 +141,8 @@ function createModel()
 
    local block1 = nn.Sequential()
    block1:add(main1)
-   --block1:add(split1) --bak
-   block1:add(sftMx1)
+   block1:add(split1) --bak
+   --block1:add(sftMx1)
 
    local split0 = nn.Concat(2)
    split0:add(block1)
@@ -151,9 +151,9 @@ function createModel()
 
    local block0 = nn.Sequential()
    block0:add(main0)
-   --block0:add(split0)  --bak
+   block0:add(split0)  --bak
    --block0:add(block1)
-   block0:add(sftMx0)
+   --block0:add(sftMx0)
 
    -- Main model definition ----------------------------------------------------
    local model = block0
