@@ -1,6 +1,6 @@
 require 'paths'
 
-paths.dofile('alexnet_mkldnn.lua')  -- corresponding file must provide a function named as createModel() to create your expected MKLDNN  model
+paths.dofile('vgg_19.lua')  -- corresponding file must provide a function named as createModel() to create your expected MKLDNN  model
 --paths.dofile('main0_module.lua')  -- corresponding file must provide a function named as createModel() to create your expected MKLDNN  model
 
 --main0_module.lua
@@ -106,7 +106,7 @@ local dnnprimitives = torch.LongTensor(2)
 
 local batch = 2 --math.random(3,8)
 --local channel, ini, inj= 256,6,6  --linear input test
-local channel, ini, inj= 3,227,227  --full model test
+local channel, ini, inj= 3,224,224  --full model test
 --local channel, ini, inj= 256,13,13  --maxpool + linear test
 --local channel, ini, inj= 384,13,13  --conv + maxpool + linear test
 

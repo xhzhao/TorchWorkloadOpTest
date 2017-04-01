@@ -1,0 +1,142 @@
+/home/xiaohui/.bashrc: line 98: /home/xiaohui/intel/mkl/bin/mklvars.sh: No such file or directory
+MKLDNN MaxPooling forward ouput layout match FAIL, size1 = 1548800, size2 = 1605632 
+MKLDNN MaxPooling forward ouput layout match FAIL, size1 = 1119744, size2 = 1204224 
+MKLDNN MaxPooling forward ouput layout match FAIL, size1 = 1119744, size2 = 1204224 
+MKLDNN MaxPooling forward ouput layout match FAIL, size1 = 648960, size2 = 752640 
+MKLDNN MaxPooling forward ouput layout match FAIL, size1 = 648960, size2 = 752640 
+MKLDNN MaxPooling forward ouput layout match FAIL, size1 = 239616, size2 = 326144 
+MKLDNN MaxPooling forward ouput layout match FAIL, size1 = 239616, size2 = 326144 
+[/home/xiaohui/test/inteltorch-mklml/extra/nn/lib/THNN/generic/SpatialConvolutionMKLDNN.c:18] err (-1)
+MKLDNN MaxPooling bwddata input layout match FAIL, size1 = 239616, size2 = 326144 
+[/home/xiaohui/test/inteltorch-mklml/extra/nn/lib/THNN/generic/SpatialConvolutionMKLDNN.c:18] err (-1)
+[/home/xiaohui/test/inteltorch-mklml/extra/nn/lib/THNN/generic/SpatialConvolutionMKLDNN.c:18] err (-1)
+MKLDNN MaxPooling bwddata input layout match FAIL, size1 = 648960, size2 = 752640 
+[/home/xiaohui/test/inteltorch-mklml/extra/nn/lib/THNN/generic/SpatialConvolutionMKLDNN.c:18] err (-1)
+[/home/xiaohui/test/inteltorch-mklml/extra/nn/lib/THNN/generic/SpatialConvolutionMKLDNN.c:18] err (-1)
+MKLDNN MaxPooling bwddata input layout match FAIL, size1 = 1119744, size2 = 1204224 
+[/home/xiaohui/test/inteltorch-mklml/extra/nn/lib/THNN/generic/SpatialConvolutionMKLDNN.c:18] err (-1)
+[/home/xiaohui/test/inteltorch-mklml/extra/nn/lib/THNN/generic/SpatialConvolutionMKLDNN.c:18] err (-1)
+[?1034hdnn gradParam sum = 	257231.48257057	, origradParam sum = 	370916.72224377	, size = 	13378280	
+dnn gradParam sum = 	249639.40995395	, origradParam sum = 	366844.19098048	, size = 	13378280	
+dnn gradParam sum = 	252153.63315889	, origradParam sum = 	367516.07168446	, size = 	13378280	
+dnn gradParam sum = 	258428.83242162	, origradParam sum = 	367394.27809547	, size = 	13378280	
+dnn gradParam sum = 	248918.093447	, origradParam sum = 	369475.72319985	, size = 	13378280	
+dnn gradParam sum = 	257428.74486528	, origradParam sum = 	369973.33312611	, size = 	13378280	
+dnn gradParam sum = 	257550.16991199	, origradParam sum = 	360819.16012015	, size = 	13378280	
+dnn gradParam sum = 	259073.72662799	, origradParam sum = 	377080.11528842	, size = 	13378280	
+dnn gradParam sum = 	254241.15224839	, origradParam sum = 	366348.81474734	, size = 	13378280	
+dnn gradParam sum = 	254770.69176422	, origradParam sum = 	374405.73250559	, size = 	13378280	
+dnn gradParam sum = 	256304.1707149	, origradParam sum = 	373587.73070803	, size = 	13378280	
+dnn gradParam sum = 	260665.31730506	, origradParam sum = 	373808.53595231	, size = 	13378280	
+dnn gradParam sum = 	252065.28209042	, origradParam sum = 	363714.61783289	, size = 	13378280	
+dnn gradParam sum = 	253876.90840835	, origradParam sum = 	367851.59181563	, size = 	13378280	
+dnn gradParam sum = 	256338.88824392	, origradParam sum = 	369282.3797689	, size = 	13378280	
+dnn gradParam sum = 	257318.4609468	, origradParam sum = 	365856.07598259	, size = 	13378280	
+dnn gradParam sum = 	263380.02211986	, origradParam sum = 	381992.40839647	, size = 	13378280	
+dnn gradParam sum = 	253526.23402265	, origradParam sum = 	367255.74479992	, size = 	13378280	
+dnn gradParam sum = 	262430.8252422	, origradParam sum = 	371184.91761531	, size = 	13378280	
+dnn gradParam sum = 	258898.90147631	, origradParam sum = 	378572.63675412	, size = 	13378280	
+dnn gradParam sum = 	260539.93106576	, origradParam sum = 	380969.27489715	, size = 	13378280	
+dnn gradParam sum = 	263018.63136603	, origradParam sum = 	379393.35733222	, size = 	13378280	
+dnn gradParam sum = 	255172.36889375	, origradParam sum = 	370485.56128724	, size = 	13378280	
+dnn gradParam sum = 	254572.51996778	, origradParam sum = 	375466.74352182	, size = 	13378280	
+dnn gradParam sum = 	257016.61317074	, origradParam sum = 	366596.67017371	, size = 	13378280	
+dnn gradParam sum = 	258090.07225833	, origradParam sum = 	372823.03395144	, size = 	13378280	
+dnn gradParam sum = 	255752.25817364	, origradParam sum = 	373394.02649842	, size = 	13378280	
+dnn gradParam sum = 	259220.72895765	, origradParam sum = 	369714.87214387	, size = 	13378280	
+dnn gradParam sum = 	258414.60223433	, origradParam sum = 	370114.51059629	, size = 	13378280	
+dnn gradParam sum = 	256351.14549894	, origradParam sum = 	368935.26120722	, size = 	13378280	
+dnn gradParam sum = 	261759.8340447	, origradParam sum = 	374361.98781964	, size = 	13378280	
+dnn gradParam sum = 	257883.67579482	, origradParam sum = 	373235.21792861	, size = 	13378280	
+dnn gradParam sum = 	256162.7117936	, origradParam sum = 	365758.88767567	, size = 	13378280	
+dnn gradParam sum = 	252529.13950109	, origradParam sum = 	372348.56241828	, size = 	13378280	
+dnn gradParam sum = 	259898.60719777	, origradParam sum = 	377921.73305012	, size = 	13378280	
+dnn gradParam sum = 	252432.98802438	, origradParam sum = 	366603.16977225	, size = 	13378280	
+dnn gradParam sum = 	262518.11294048	, origradParam sum = 	379336.1294287	, size = 	13378280	
+dnn gradParam sum = 	261775.42474579	, origradParam sum = 	379665.40431769	, size = 	13378280	
+dnn gradParam sum = 	258751.41106458	, origradParam sum = 	377065.94488295	, size = 	13378280	
+dnn gradParam sum = 	255960.81742438	, origradParam sum = 	366482.76592598	, size = 	13378280	
+dnn gradParam sum = 	258296.61503846	, origradParam sum = 	369629.53384432	, size = 	13378280	
+dnn gradParam sum = 	252508.29885852	, origradParam sum = 	367713.90136899	, size = 	13378280	
+dnn gradParam sum = 	251324.25644178	, origradParam sum = 	367310.65558289	, size = 	13378280	
+dnn gradParam sum = 	256500.0533712	, origradParam sum = 	367330.22212647	, size = 	13378280	
+dnn gradParam sum = 	257930.33076108	, origradParam sum = 	371121.59833683	, size = 	13378280	
+dnn gradParam sum = 	254577.1512989	, origradParam sum = 	362084.08430824	, size = 	13378280	
+dnn gradParam sum = 	261736.32897682	, origradParam sum = 	373713.13348162	, size = 	13378280	
+dnn gradParam sum = 	257442.58493041	, origradParam sum = 	373369.64886387	, size = 	13378280	
+dnn gradParam sum = 	258266.5797826	, origradParam sum = 	368461.3889081	, size = 	13378280	
+dnn gradParam sum = 	258845.12070897	, origradParam sum = 	371809.96295434	, size = 	13378280	
+dnn gradParam sum = 	258517.01293785	, origradParam sum = 	366540.47509317	, size = 	13378280	
+dnn gradParam sum = 	259614.91176101	, origradParam sum = 	373134.84613277	, size = 	13378280	
+dnn gradParam sum = 	254389.16586156	, origradParam sum = 	368763.15550831	, size = 	13378280	
+dnn gradParam sum = 	261535.56286814	, origradParam sum = 	376658.77675455	, size = 	13378280	
+dnn gradParam sum = 	262158.34348923	, origradParam sum = 	371553.90252704	, size = 	13378280	
+dnn gradParam sum = 	255693.63112131	, origradParam sum = 	369948.62408291	, size = 	13378280	
+dnn gradParam sum = 	257589.30895139	, origradParam sum = 	373737.65849825	, size = 	13378280	
+dnn gradParam sum = 	257844.60515593	, origradParam sum = 	374776.0611628	, size = 	13378280	
+dnn gradParam sum = 	254852.64376071	, origradParam sum = 	359092.8421858	, size = 	13378280	
+dnn gradParam sum = 	260196.4257995	, origradParam sum = 	381986.25835075	, size = 	13378280	
+dnn gradParam sum = 	253209.01592782	, origradParam sum = 	361606.45949249	, size = 	13378280	
+dnn gradParam sum = 	266129.3911591	, origradParam sum = 	376259.64451258	, size = 	13378280	
+dnn gradParam sum = 	253610.10453987	, origradParam sum = 	367127.22565887	, size = 	13378280	
+dnn gradParam sum = 	262916.7840186	, origradParam sum = 	376853.89303406	, size = 	13378280	
+dnn gradParam sum = 	256195.0205587	, origradParam sum = 	359414.57724453	, size = 	13378280	
+dnn gradParam sum = 	256315.38080447	, origradParam sum = 	370346.15526742	, size = 	13378280	
+dnn gradParam sum = 	253249.92837184	, origradParam sum = 	362983.73145563	, size = 	13378280	
+dnn gradParam sum = 	258773.24257278	, origradParam sum = 	372335.8593276	, size = 	13378280	
+dnn gradParam sum = 	264053.53093525	, origradParam sum = 	374819.93789913	, size = 	13378280	
+dnn gradParam sum = 	259798.21546393	, origradParam sum = 	369297.92817978	, size = 	13378280	
+dnn gradParam sum = 	254208.68518168	, origradParam sum = 	369635.51120551	, size = 	13378280	
+dnn gradParam sum = 	253012.02244431	, origradParam sum = 	359947.0944101	, size = 	13378280	
+dnn gradParam sum = 	258881.9380246	, origradParam sum = 	371877.55649742	, size = 	13378280	
+dnn gradParam sum = 	255899.09557812	, origradParam sum = 	361487.57403396	, size = 	13378280	
+dnn gradParam sum = 	250544.60864975	, origradParam sum = 	358787.06861345	, size = 	13378280	
+dnn gradParam sum = 	254192.86902724	, origradParam sum = 	362314.70104049	, size = 	13378280	
+dnn gradParam sum = 	258338.66491276	, origradParam sum = 	372970.20550478	, size = 	13378280	
+dnn gradParam sum = 	253236.58112656	, origradParam sum = 	369440.72073957	, size = 	13378280	
+dnn gradParam sum = 	254518.08037887	, origradParam sum = 	365839.19904261	, size = 	13378280	
+dnn gradParam sum = 	259837.84878365	, origradParam sum = 	374131.2078987	, size = 	13378280	
+dnn gradParam sum = 	260517.88802815	, origradParam sum = 	377801.13725176	, size = 	13378280	
+dnn gradParam sum = 	257621.25816151	, origradParam sum = 	359707.90188012	, size = 	13378280	
+dnn gradParam sum = 	254034.36039036	, origradParam sum = 	367921.96749491	, size = 	13378280	
+dnn gradParam sum = 	265594.80265717	, origradParam sum = 	378363.64606977	, size = 	13378280	
+dnn gradParam sum = 	253421.88703746	, origradParam sum = 	368447.26698245	, size = 	13378280	
+dnn gradParam sum = 	255788.82210743	, origradParam sum = 	366367.33009016	, size = 	13378280	
+dnn gradParam sum = 	259934.54341343	, origradParam sum = 	374958.7039984	, size = 	13378280	
+dnn gradParam sum = 	256750.35709635	, origradParam sum = 	373007.07307936	, size = 	13378280	
+dnn gradParam sum = 	256892.04571175	, origradParam sum = 	372576.69354498	, size = 	13378280	
+dnn gradParam sum = 	254884.1005858	, origradParam sum = 	370753.33759671	, size = 	13378280	
+dnn gradParam sum = 	254442.62990216	, origradParam sum = 	365438.31465895	, size = 	13378280	
+dnn gradParam sum = 	252987.85916368	, origradParam sum = 	369619.24926316	, size = 	13378280	
+dnn gradParam sum = 	255556.15086365	, origradParam sum = 	369123.98135156	, size = 	13378280	
+dnn gradParam sum = 	261436.75264743	, origradParam sum = 	378726.39718022	, size = 	13378280	
+dnn gradParam sum = 	254018.87360935	, origradParam sum = 	366753.13072484	, size = 	13378280	
+dnn gradParam sum = 	250003.28234632	, origradParam sum = 	363432.62389929	, size = 	13378280	
+dnn gradParam sum = 	254475.08581478	, origradParam sum = 	370826.66103484	, size = 	13378280	
+dnn gradParam sum = 	257768.24278485	, origradParam sum = 	377823.94427812	, size = 	13378280	
+dnn gradParam sum = 	251671.8377957	, origradParam sum = 	359209.71503921	, size = 	13378280	
+dnn gradParam sum = 	256411.97916117	, origradParam sum = 	373711.34070056	, size = 	13378280	
+dnn gradParam sum = 	255605.70639042	, origradParam sum = 	369265.63327997	, size = 	13378280	
+dnn gradParam sum = 	257231.58321644	, origradParam sum = 	374928.58903176	, size = 	13378280	
+dnn gradParam sum = 	260716.9631988	, origradParam sum = 	372898.82798378	, size = 	13378280	
+dnn gradParam sum = 	258412.18039366	, origradParam sum = 	366033.59278284	, size = 	13378280	
+dnn gradParam sum = 	260610.09671788	, origradParam sum = 	374245.97996491	, size = 	13378280	
+dnn gradParam sum = 	254724.15818316	, origradParam sum = 	366274.87704994	, size = 	13378280	
+dnn gradParam sum = 	254031.77135833	, origradParam sum = 	369063.20754943	, size = 	13378280	
+dnn gradParam sum = 	254343.05533321	, origradParam sum = 	369204.89752218	, size = 	13378280	
+dnn gradParam sum = 	255087.98303643	, origradParam sum = 	369002.99200548	, size = 	13378280	
+dnn gradParam sum = 	261112.39494648	, origradParam sum = 	378341.82397354	, size = 	13378280	
+dnn gradParam sum = 	258547.54273544	, origradParam sum = 	370845.97139735	, size = 	13378280	
+dnn gradParam sum = 	260213.33154226	, origradParam sum = 	370202.06574435	, size = 	13378280	
+dnn gradParam sum = 	252903.13605609	, origradParam sum = 	365724.75319238	, size = 	13378280	
+dnn gradParam sum = 	255774.54027585	, origradParam sum = 	374084.37711876	, size = 	13378280	
+dnn gradParam sum = 	256082.17391709	, origradParam sum = 	369584.33333771	, size = 	13378280	
+dnn gradParam sum = 	256374.85443848	, origradParam sum = 	373306.1496933	, size = 	13378280	
+dnn gradParam sum = 	257279.74104313	, origradParam sum = 	369273.9940837	, size = 	13378280	
+dnn gradParam sum = 	259780.21226184	, origradParam sum = 	373126.47174307	, size = 	13378280	
+dnn gradParam sum = 	259247.39316023	, origradParam sum = 	372769.40902279	, size = 	13378280	
+dnn gradParam sum = 	257240.73104708	, origradParam sum = 	370983.60130258	, size = 	13378280	
+dnn gradParam sum = 	255052.19500799	, origradParam sum = 	372056.82748933	, size = 	13378280	
+dnn gradParam sum = 	259526.94550909	, origradParam sum = 	368253.94659959	, size = 	13378280	
+dnn gradParam sum = 	252618.16372186	, origradParam sum = 	364602.08995748	, size = 	13378280	
+slurmstepd: error: *** JOB 22172 ON pcs-bdw01 CANCELLED AT 2017-04-01T10:02:33 ***
