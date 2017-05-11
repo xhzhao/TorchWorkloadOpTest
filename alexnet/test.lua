@@ -37,6 +37,7 @@ for i=1,1000  do
 -------forward
    input = torch.randn(batch, channel, inj, ini):uniform(0,255)
    input_clone = input:clone()
+   input = input:mkl()
    dnnOutput=dnn_model:forward(input)
    ori_model:forward(input_clone)
 
