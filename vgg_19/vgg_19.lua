@@ -3,11 +3,11 @@ require 'nn'
 
 
 
-local SC  = nn.SpatialConvolutionMKLDNN
-local SMP = nn.SpatialMaxPoolingMKLDNN
-local SAP = nn.SpatialAveragePoolingMKLDNN
-local RLU = nn.ReLUMKLDNN
-local LRN = nn.LRNMKLDNN
+local SC  = nn.SpatialConvolution
+local SMP = nn.SpatialMaxPooling
+local SAP = nn.SpatialAveragePooling
+local RLU = nn.ReLU
+local LRN = nn.SpatialCorssMapLRN
 local nClasses = 1000
 
 
@@ -67,10 +67,6 @@ function createModel()
 
    local model = nn.Sequential()
    model:add(features):add(classifier)
-
-
-   print(model)
-
 
    return model
 end
