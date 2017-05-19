@@ -26,17 +26,16 @@ local function InitLi(li, bias)
 end
 
 
-local SC  = nn.SpatialConvolutionMKLDNN
-local SMP = nn.SpatialMaxPoolingMKLDNN
-local SAP = nn.SpatialAveragePoolingMKLDNN
-local RLU = nn.ReLUMKLDNN
-local LRN = nn.LRNMKLDNN
+local SC  = nn.SpatialConvolution
+local SMP = nn.SpatialMaxPooling
+local SAP = nn.SpatialAveragePooling
+local RLU = nn.ReLU
+local LRN = nn.SpatialCrossMapLRN
 local nClasses = 1000
 
 
-
 local function inc(input_size, config) -- inception
-    local depthCat = nn.ConcatMKLDNN(2) -- should be 1, 2 considering batches
+    local depthCat = nn.Concat(2) -- should be 1, 2 considering batches
 
     local conv1 = nn.Sequential()
     conv1:add( InitConv( SC(input_size, config[1][1], 1, 1) )):add(RLU(true))
